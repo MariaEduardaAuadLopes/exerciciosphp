@@ -12,14 +12,14 @@
 </html>
 </head>
 <body>
-<div class="row mb-4">
-    <div class="col">
+
+<div class="col ms-5">
       <div class="form-outline">
         <input type="text" id="form6Example1" class="form-control" />
         <label class="form-label" for="form6Example1">Nome</label>
       </div>
     </div>
-    <div class="col">
+    <div class="col ms-5">
       <div class="form-outline">
         <input type="text" id="form6Example2" class="form-control" />
         <label class="form-label" for="form6Example2">Rua</label>
@@ -28,7 +28,8 @@
   </div>
 
   <!-- Text input -->
-  <div class="form-outline mb-4">
+  <div class="col ms-5">
+  <div class="form-outline">
     <input type="text" id="form6Example3" class="form-control" />
     <label class="form-label" for="form6Example3">Numero</label>
   </div>
@@ -92,7 +93,7 @@
 
 
   <!-- Submit button -->
-  <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+  <button type="submit" class="btn btn-primary btn-block mb-4">Cadastrar!</button>
 </form>
 </body>
 </html>
